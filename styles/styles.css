@@ -297,3 +297,29 @@ img {
   height: auto;
   display: block;
 }
+
+body {
+  font-family: "Karma", serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+header a {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+.article a {
+  font-size: 2.1rem;
+}
+
+.footerList a {
+  font-size: 1.3rem;
+}
+
+a {
+  color: black;
+}
