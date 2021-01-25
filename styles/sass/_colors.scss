@@ -1,7 +1,39 @@
 $black: rgb(0, 0, 0);
 $white: rgb(255, 255, 255);
-// grey: rgb(128,128,128);
+$grey: rgb(105, 105, 105);
 
 a {
   color: $black;
+}
+
+.about {
+  border-top: 2px solid rgba(105, 105, 105, 0.3);
+  border-bottom: 2px solid rgba(105, 105, 105, 0.3);
+}
+
+.blogsTop {
+  border-bottom: 2px solid rgba(105, 105, 105, 0.3);
+}
+
+.footerList a {
+  background-color: $grey;
+  color: $white;
+}
+
+// Hover/focus:
+
+header a:hover,
+header a:focus {
+  background-color: rgba(105, 105, 105, 0.5);
+}
+
+.numbersList a:hover,
+.numbersList a:focus {
+  background-color: $black;
+  color: $white;
+}
+
+.footerList a:hover,
+.footerList a:focus {
+  background-color: $black;
 }
