@@ -38,6 +38,10 @@ footer section:nth-child(3),
   width: 63px;
 }
 
+.footerList:not(first-child) {
+  margin-bottom: 2.5rem;
+}
+
 .footerList a {
   padding: 0 0.7rem;
   margin-right: 0.4rem;
