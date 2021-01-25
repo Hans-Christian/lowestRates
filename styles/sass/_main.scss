@@ -1,3 +1,32 @@
+.topOptionsList p,
+.botOptionsList p,
+.about p:last-child {
+  line-height: 2.5rem;
+}
+
+// About section:
+
 .about {
-  padding: 9rem 0;
+  padding: 8rem 0 10rem 0;
+}
+
+.about h2 {
+  margin-bottom: 3rem;
+}
+
+.about img + p {
+  margin-top: 3.5rem;
+}
+
+.about img {
+  width: 71%;
+}
+
+.about p:nth-of-type(2) {
+  margin: 2rem 0;
+}
+
+.topOptionsList div,
+.botOptionsList div {
+  width: 25%;
 }
