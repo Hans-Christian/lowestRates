@@ -298,6 +298,10 @@ img {
   display: block;
 }
 
+.fas {
+  cursor: pointer;
+}
+
 body {
   font-family: "Karma", serif;
   font-size: 1.66rem;
@@ -306,7 +310,6 @@ body {
 
 .menuBars .fas {
   font-size: 3.5rem;
-  cursor: pointer;
 }
 
 h1,
@@ -398,6 +401,10 @@ h1 {
   padding: 1rem 2rem;
 }
 
+.numbersList .fas {
+  padding: 0 2rem;
+}
+
 .about {
   padding: 8rem 0 10rem 0;
 }
@@ -414,6 +421,11 @@ h1 {
 .topOptionsList div,
 .botOptionsList div {
   width: 25%;
+}
+
+.topOptionsList p,
+.botOptionsList p {
+  width: 96%;
 }
 
 footer {
@@ -461,6 +473,6 @@ footer section:nth-child(3),
 }
 
 .footerList a {
-  padding: 0 0.7rem;
+  padding: 0 0.6rem;
   margin-right: 0.4rem;
 }
