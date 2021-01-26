@@ -3,6 +3,7 @@ const headerFirstLi = document.querySelector(`.headerList li:first-child`);
 const headerUl = document.querySelector(`.headerList`);
 const logInButton = document.querySelector(`.headerDivs p`);
 const hiddenItems = document.querySelectorAll(`.hiddenItems`);
+const topOfPage = document.querySelector(`.top`);
 
 // When the user clicks on the burger menu, the header list will slide open.
 menuBars.addEventListener(`click`, navShow);
@@ -28,15 +29,15 @@ function jumpDown(){
     hiddenItems.forEach(function(hiddenItem){
         hiddenItem.classList.toggle(`displayItems`);
     })
+
+    // Step 5: When the user clicks on the "Close Menu" list item, the menu will reset to the original list and jump back to the top of the page.
+    headerFirstLi.addEventListener(`click`, jumpUp);
+
+    function jumpUp(){
+        hiddenItems.forEach(function (hiddenItem) {
+            hiddenItem.classList.remove(`displayItems`);            
+        })
+        topOfPage.scrollIntoView();
+    }
 }
 
-// Step 5: When the user clicks on the "Close Menu" list item, the menu will reset to the original list and jump back to the top of the page.
-headerFirstLi.addEventListener(`click`, jumpUp);
-
-function jumpUp(){
-    hiddenItems.forEach(function (hiddenItem) {
-        hiddenItem.classList.remove(`displayItems`);
-    })
-}
-
-// window.scrollTo(0, 0);

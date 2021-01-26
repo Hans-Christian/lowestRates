@@ -387,7 +387,9 @@ header li,
 }
 
 .headerList li:hover,
-.headerList li:focus {
+.headerList li:focus,
+.headerDivs p:hover,
+.headerDivs p:focus {
   background-color: rgba(105, 105, 105, 0.5);
 }
 
