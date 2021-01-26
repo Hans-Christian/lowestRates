@@ -336,6 +336,10 @@ header li,
   font-size: 1.3rem;
 }
 
+a {
+  color: black;
+}
+
 .headerBar,
 .headerList {
   background-color: white;
@@ -377,7 +381,7 @@ header li,
 }
 
 header {
-  height: 40vh;
+  height: 25vh;
 }
 
 h1 {
@@ -388,9 +392,17 @@ h1 {
   padding: 2rem 0 2rem 3rem;
 }
 
-.headerBar {
+.headerList a {
+  outline-style: none;
+}
+
+.headerBar,
+.headerList {
   position: fixed;
   top: 0;
+}
+
+.headerBar {
   padding: 2rem 0;
   width: 100%;
 }
@@ -402,11 +414,10 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 82%;
 }
 
 .headerList {
-  position: fixed;
-  top: 0;
   left: 0;
   height: 100%;
   width: 39%;
@@ -475,12 +486,9 @@ h1 {
   margin: 6rem 0;
 }
 
-.numbersList a {
-  padding: 1rem 2rem;
-}
-
+.numbersList li,
 .numbersList .fas {
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 footer {

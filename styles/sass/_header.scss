@@ -1,5 +1,5 @@
 header {
-  height: 40vh;
+  height: 25vh;
 }
 
 h1 {
@@ -10,9 +10,17 @@ h1 {
   padding: 2rem 0 2rem 3rem;
 }
 
-.headerBar {
+.headerList a {
+  outline-style: none;
+}
+
+.headerBar,
+.headerList {
   position: fixed;
   top: 0;
+}
+
+.headerBar {
   padding: 2rem 0;
   width: 100%;
 }
@@ -20,11 +28,10 @@ h1 {
 .headerDivs {
   justify-content: space-between;
   align-items: center;
+  width: 82%;
 }
 
 .headerList {
-  position: fixed;
-  top: 0;
   left: 0;
   height: 100%;
   width: 39%;
