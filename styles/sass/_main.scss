@@ -10,20 +10,18 @@
   line-height: 4rem;
 }
 
+.topOptionsList div,
+.botOptionsList div {
+  width: 25%;
+}
+
+.topOptionsList p,
+.botOptionsList p {
+  width: 96%;
+}
+
 .botOptionsList {
   margin-top: 5rem;
-}
-
-.numbersList {
-  margin: 6rem 0;
-}
-
-.numbersList a {
-  padding: 1rem 2rem;
-}
-
-.numbersList .fas {
-  padding: 0 2rem;
 }
 
 .about {
@@ -39,12 +37,14 @@
   margin: 2rem 0;
 }
 
-.topOptionsList div,
-.botOptionsList div {
-  width: 25%;
+.numbersList {
+  margin: 6rem 0;
 }
 
-.topOptionsList p,
-.botOptionsList p {
-  width: 96%;
+.numbersList a {
+  padding: 1rem 2rem;
+}
+
+.numbersList .fas {
+  padding: 0 2rem;
 }

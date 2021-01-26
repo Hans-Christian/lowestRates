@@ -18,13 +18,9 @@
         .footerList{
             display: flex;
         }
-
+        
         .footerList{
             flex-wrap:wrap;
-        }
-
-        .headerDivs{
-            justify-content: space-between;
         }
 
         .numbersList{
@@ -41,119 +37,85 @@
         .botOptionsList img{
             margin: 0 auto;
         }
-
     </style>
 </head>
-<body class="wrapper">
+<body>
     <header>
-        <section class="menuBars">
-            <i class="fas fa-bars"></i>
-        </section>
-        <section class="headerDivs">
-            <div>
-                <nav>
-                    <ul class="headerList">
-                        <li>
-                            <a href="">Close Menu</a>
-                        </li>
-                        <li>
-                            <a href="">Insurance</a>
-                        </li>
-                        <li>
-                            <a href="">Mortgage</a>
-                        </li>
-                        <li>
-                            <a href="">Home Insurance</a>
-                        </li>
-                        <li>
-                            <a href="">Life Property Insurance</a>
-                        </li>
-                        <li>
-                            <a href="">Auto and Credit Cards</a>
-                        </li>
-                        <li>
-                            <a href="">Travel Insurance</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
+        <ul class="headerList">
+            <li>Close Menu</li>
+            <li class="hiddenItems">Loans</li>
+            <li class="hiddenItems">Finance</li>
+            <li class="hiddenItems">Debt</li>
+            <li>Insurance</li>
+            <li>Mortgage</li>
+            <li>Home Insurance</li>
+            <li>Life Property Insurance</li>
+            <li>Auto and Credit Cards</li>
+            <li>Travel Insurance</li>
+        </ul>
+        <section class="headerBar">
+            <div class="headerDivs">
+                <i class="menuBars fas fa-bars"></i>
                 <h1>Lowest Rates Test</h1>
-            </div>
-            <div>
-                <a href="">Login</a>
+                <p>Login</p>
             </div>
         </section>
     </header>
-    <main>
-        <section>
-            <div class="topOptionsList">
-                <div>
-                    <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
-                    <h2>Nice Mortgage Rates</h2>
-                    <p>Come get the best mortgage rates at lowestrates.ca</p>
-                </div>
-                <div>
-                    <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
-                    <h2>Get best Car insurance</h2>
-                    <p>come get it at lr.ca best car insurance.</p>
-                </div>
-                <div>
-                    <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
-                    <h2>Best Home insurance</h2>
-                    <p>Get your best car insurance. Get it now, Come get it, best best of the best.</p>
-                    <br>
-                    <p>What else?</p>
-                </div>
-                <div>
-                    <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
-                    <h2>car loans car loans car loans!</h2>
-                    <p>get ur carloans here, come come come.</p>
-                </div>
+    <main class="wrapper">
+        <section class="topOptionsList">
+            <div>
+                <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
+                <h2>Nice Mortgage Rates</h2>
+                <p>Come get the best mortgage rates at lowestrates.ca</p>
             </div>
-            <div class="botOptionsList">
-                <div>
-                    <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
-                    <h2>some stuff u like</h2>
-                    <p>stuff you like stuff you like</p>
-                </div>
-                <div>
-                    <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
-                    <h2>wanna try lowestrates.ca?</h2>
-                    <p>you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it</p>
-                </div>
-                <div>
-                    <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
-                    <h2>The Perfect Sandwich, A Real Classic</h2>
-                    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-                </div>
-                <div>
-                    <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
-                    <h2>the classic!!</h2>
-                    <p>nice come get the classic classic</p>
-                </div>
+            <div>
+                <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
+                <h2>Get best Car insurance</h2>
+                <p>come get it at lr.ca best car insurance.</p>
             </div>
-            <ul class="numbersList">
-                <li class="animate__animated animate__tada animate__infinite">
-                    <i class="fas fa-angle-double-left"></i>
-                </li>
-                <li>
-                    <a href="">1</a>
-                </li>
-                <li>
-                    <a href="">2</a>
-                </li>
-                <li>
-                    <a href="">3</a>
-                </li>
-                <li>
-                    <a href="">4</a>
-                </li>
-                <li class="animate__animated animate__tada animate__infinite">
-                    <i class="fas fa-angle-double-right"></i>
-                </li>
-            </ul>
+            <div>
+                <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
+                <h2>Best Home insurance</h2>
+                <p>Get your best car insurance. Get it now, Come get it, best best of the best.</p>
+                <br>
+                <p>What else?</p>
+            </div>
+            <div>
+                <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
+                <h2>car loans car loans car loans!</h2>
+                <p>get ur carloans here, come come come.</p>
+            </div>
         </section>
+        <section class="botOptionsList">
+            <div>
+                <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
+                <h2>some stuff u like</h2>
+                <p>stuff you like stuff you like</p>
+            </div>
+            <div>
+                <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
+                <h2>wanna try lowestrates.ca?</h2>
+                <p>you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it you will love it once you trying it</p>
+            </div>
+            <div>
+                <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
+                <h2>The Perfect Sandwich, A Real Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+                <img src="./assets/creditCard.PNG" alt="A drawing of a hand holding up a credit card.">
+                <h2>the classic!!</h2>
+                <p>nice come get the classic classic</p>
+            </div>
+        </section>
+        <ul class="numbersList">
+            <i class="fas fa-angle-double-left animate__animated animate__tada animate__infinite"></i>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <i class="fas fa-angle-double-right animate__animated animate__tada animate__infinite"></i>
+        </ul>
         <section class="about">
             <h2>About lowestrates</h2>
             <img src="./assets/canadianQuarter.PNG" alt="A Canadian quarter on a grey surface.">
@@ -162,7 +124,7 @@
             <p>come get it, best rate comparison site!! come get it, best rate comparison site!! come get it, best rate comparison site!!come get it, best rate comparison site!!come get it, best rate comparison site!!come get it, best rate comparison site!!come get it, best rate comparison site!!come get it, best rate comparison site!!come get it, best rate comparison site!! come get it, best rate comparison site!! come get it, best rate comparison site!!come get it, best rate comparison site!!come get it, best rate comparison site!!</p>
         </section>
     </main>
-    <footer>
+    <footer class="wrapper">
         <section>
             <h3>FOOTER</h3>
             <p>best fooder ever!</p>
@@ -173,14 +135,14 @@
             <div class="blogsTop">
                 <div class="article1 article">
                     <img src="./assets/canadianQuarter.PNG" alt="A Canadian quarter on a grey surface.">
-                    <a href="">article 1</a>
+                    <p>article 1</p>
                 </div>
                 <p>best articles</p>
             </div>
             <div class="blogsBot">
                 <div class="article2 article">
                     <img src="./assets/canadianQuarter.PNG" alt="A Canadian quarter on a grey surface.">
-                    <a href="">article 2</a>
+                    <p>article 2</p>
                 </div>
                 <p>same good stuff</p>
             </div>
@@ -188,54 +150,26 @@
         <section>
             <h3>insurance types</h3>
             <ul class="footerList">
-                <li>
-                    <a href="">home</a>
-                </li>
-                <li>
-                    <a href="">auto</a>
-                </li>
-                <li>
-                    <a href="">car</a>
-                </li>
-                <li>
-                    <a href="">Toronto</a>
-                </li>
-                <li>
-                    <a href="">Ontario</a>
-                </li>
-                <li>
-                    <a href="">Mortgage</a>
-                </li>
+                <li>home</li>
+                <li>auto</li>
+                <li>car</li>
+                <li>Toronto</li>
+                <li>Ontario</li>
+                <li>Mortgage</li>
             </ul>
             <ul class="footerList">
-                <li>
-                    <a href="">insurance</a>
-                </li>
-                <li>
-                    <a href="">car loans</a>
-                </li>
-                <li>
-                    <a href="">life insurance</a>
-                </li>
-                <li>
-                    <a href="">snow bird travel insurance</a>
-                </li>
+                <li>insurance</li>
+                <li>car loans</li>
+                <li>life insurance</li>
+                <li>snow bird travel insurance</li>
             </ul>
             <ul class="footerList">
-                <li>
-                    <a href="">some long category test list list list list</a>
-                </li>
-                <li>
-                    <a href="">finance</a>
-                </li>
-                <li>
-                    <a href="">lowestrates.ca</a>
-                </li>
+                <li>some long category test list list list list</li>
+                <li>finance</li>
+                <li>lowestrates.ca</li>
             </ul>
             <ul class="footerList">
-                <li>
-                    <a href="">credit cards</a>
-                </li>
+                <li>credit cards</li>
             </ul>
         </section>
     </footer>

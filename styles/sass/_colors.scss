@@ -2,8 +2,13 @@ $black: rgb(0, 0, 0);
 $white: rgb(255, 255, 255);
 $grey: rgb(105, 105, 105);
 
-a {
-  color: $black;
+.headerBar,
+.headerList {
+  background-color: $white;
+}
+
+.headerList {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .about {
@@ -15,25 +20,25 @@ a {
   border-bottom: 2px solid rgba(105, 105, 105, 0.3);
 }
 
-.footerList a {
+.footerList li {
   background-color: $grey;
   color: $white;
 }
 
 // Hover/focus:
 
-header a:hover,
-header a:focus {
+.headerList li:hover,
+.headerList li:focus {
   background-color: rgba(105, 105, 105, 0.5);
 }
 
-.numbersList a:hover,
-.numbersList a:focus {
+.numbersList li:hover,
+.numbersList li:focus {
   background-color: $black;
   color: $white;
 }
 
-.footerList a:hover,
-.footerList a:focus {
+.footerList li:hover,
+.footerList li:focus {
   background-color: $black;
 }

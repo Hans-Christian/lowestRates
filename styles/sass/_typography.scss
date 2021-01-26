@@ -6,22 +6,23 @@ body {
   font-weight: 400;
 }
 
-.menuBars .fas {
+.menuBars {
   font-size: 3.5rem;
 }
 
 h1,
 h2,
 h3,
-header a {
+header li,
+.headerDivs p {
   font-size: 2.7rem;
   font-weight: 500;
 }
 
-.article a {
+.article li {
   font-size: 2.1rem;
 }
 
-.footerList a {
+.footerList li {
   font-size: 1.3rem;
 }
