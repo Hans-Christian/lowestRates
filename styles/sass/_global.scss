@@ -31,6 +31,29 @@ body {
   overflow-x: hidden;
 }
 
+.headerDivs,
+.topOptionsList,
+.botOptionsList,
+.numbersList,
+.article,
+footer,
+.footerList {
+  display: flex;
+}
+
+.topOptionsList,
+.botOptionsList,
+footer,
+.footerList {
+  flex-wrap: wrap;
+}
+
+.headerDivs,
+.topOptionsList img,
+.botOptionsList img {
+  margin: 0 auto;
+}
+
 .headerDivs p,
 li,
 .article p,

@@ -20,6 +20,12 @@
   width: 96%;
 }
 
+.topOptionsList div,
+.botOptionsList div,
+.about {
+  text-align: center;
+}
+
 .botOptionsList {
   margin-top: 5rem;
 }
@@ -39,6 +45,7 @@
 
 .numbersList {
   margin: 6rem 0;
+  justify-content: center;
 }
 
 .numbersList li,
