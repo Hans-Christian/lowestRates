@@ -16,16 +16,15 @@ footer section:first-child p {
 
 footer section:first-child,
 footer section:nth-child(3),
-.blogsTop,
-.blogsBot {
+.blogs {
   padding-left: 1.5rem;
 }
 
-.blogsTop {
+.blogs:first-of-type {
   padding-bottom: 2rem;
 }
 
-.blogsBot {
+.blogs:last-of-type {
   padding-top: 1.7rem;
 }
 

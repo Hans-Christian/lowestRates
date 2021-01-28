@@ -1,34 +1,29 @@
 .topOptionsList p,
-.botOptionsList p,
 .about p:last-child {
   line-height: 2.5rem;
 }
 
-.topOptionsList h2,
-.botOptionsList h2 {
+.topOptionsList h2 {
   margin: 1.5rem 0 2rem 0;
   line-height: 4rem;
 }
 
-.topOptionsList div,
-.botOptionsList div {
-  width: 25%;
+.topOptionsList div {
+  width: 312.5px;
 }
 
-.topOptionsList p,
-.botOptionsList p {
+.topOptionsList p {
   width: 96%;
 }
 
 .topOptionsList div,
-.botOptionsList div,
 .about {
   text-align: center;
 }
 
-.botOptionsList {
-  margin-top: 5rem;
-}
+// .botOptionsList {
+//   margin-top: 5rem;
+// }
 
 .about {
   padding: 8rem 0 10rem 0;
@@ -36,19 +31,25 @@
 
 .about img {
   margin: 3rem auto 3.5rem;
-  width: 71%;
+  width: 720px;
 }
+
+// @media (max-width: 720px) {
+//   .about img {
+//     width: 360px;
+//   }
+// }
 
 .about p:nth-of-type(2) {
   margin: 2rem 0;
 }
 
-.numbersList {
+.paginationList {
   margin: 6rem 0;
   justify-content: center;
 }
 
-.numbersList li,
-.numbersList .fas {
+.paginationList li,
+.paginationList .fas {
   padding: 1rem 2rem;
 }

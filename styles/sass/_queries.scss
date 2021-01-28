@@ -1,65 +1,65 @@
-@media (max-width: 1161px) {
-  .topOptionsList div,
-  .botOptionsList div {
-    width: 50%;
-  }
-  .botOptionsList {
-    margin-top: 0;
-  }
-  .topOptionsList img,
-  .botOptionsList img {
-    width: 40%;
-  }
-}
+// @media (max-width: 1161px) {
+//   .topOptionsList div,
+//   .botOptionsList div {
+//     width: 50%;
+//   }
+//   .botOptionsList {
+//     margin-top: 0;
+//   }
+//   .topOptionsList img,
+//   .botOptionsList img {
+//     width: 40%;
+//   }
+// }
 
-@media (max-width: 865px) {
-  .headerList {
-    width: 50%;
-  }
-  footer section {
-    width: calc(100% / 2);
-  }
-  footer section:first-child,
-  footer section:nth-child(3) {
-    padding-left: 0;
-  }
-  footer section:nth-child(3) {
-    padding-top: 3rem;
-    margin: 0 auto;
-  }
-}
+// @media (max-width: 865px) {
+//   .headerList {
+//     width: 50%;
+//   }
+//   footer section {
+//     width: calc(100% / 2);
+//   }
+//   footer section:first-child,
+//   footer section:nth-child(3) {
+//     padding-left: 0;
+//   }
+//   footer section:nth-child(3) {
+//     padding-top: 3rem;
+//     margin: 0 auto;
+//   }
+// }
 
-@media (max-width: 597px) {
-  html {
-    font-size: 52.5%;
-  }
-  header {
-    height: 20vh;
-  }
-  .headerDivs {
-    width: 92%;
-  }
-  .headerList {
-    width: 70%;
-  }
-}
+// @media (max-width: 597px) {
+//   html {
+//     font-size: 52.5%;
+//   }
+//   header {
+//     height: 20vh;
+//   }
+//   .headerDivs {
+//     width: 92%;
+//   }
+//   .headerList {
+//     width: 70%;
+//   }
+// }
 
-@media (max-width: 491px) {
-  .headerList {
-    width: 82%;
-  }
-  .topOptionsList div,
-  .botOptionsList div,
-  .about img,
-  footer section {
-    width: 100%;
-  }
-  .topOptionsList div,
-  .botOptionsList div:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-  .topOptionsList img,
-  .botOptionsList img {
-    width: 80%;
-  }
-}
+// @media (max-width: 491px) {
+//   .headerList {
+//     width: 82%;
+//   }
+//   .topOptionsList div,
+//   .botOptionsList div,
+//   .about img,
+//   footer section {
+//     width: 100%;
+//   }
+//   .topOptionsList div,
+//   .botOptionsList div:not(:last-child) {
+//     margin-bottom: 1rem;
+//   }
+//   .topOptionsList img,
+//   .botOptionsList img {
+//     width: 80%;
+//   }
+// }
