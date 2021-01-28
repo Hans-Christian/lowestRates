@@ -1,29 +1,30 @@
-.topOptionsList p,
+.card p,
 .about p:last-child {
   line-height: 2.5rem;
 }
 
-.topOptionsList h2 {
+.card {
+  width: 312.5px;
+}
+
+.card h2 {
   margin: 1.5rem 0 2rem 0;
   line-height: 4rem;
 }
 
-.topOptionsList div {
-  width: 312.5px;
-}
-
-.topOptionsList p {
+.card p {
   width: 96%;
 }
 
-.topOptionsList div,
+.card,
+.paginationList {
+  margin-bottom: 5rem;
+}
+
+.card,
 .about {
   text-align: center;
 }
-
-// .botOptionsList {
-//   margin-top: 5rem;
-// }
 
 .about {
   padding: 8rem 0 10rem 0;
@@ -31,21 +32,15 @@
 
 .about img {
   margin: 3rem auto 3.5rem;
-  width: 720px;
+  width: 885px;
 }
-
-// @media (max-width: 720px) {
-//   .about img {
-//     width: 360px;
-//   }
-// }
 
 .about p:nth-of-type(2) {
   margin: 2rem 0;
 }
 
+.sectionList,
 .paginationList {
-  margin: 6rem 0;
   justify-content: center;
 }
 

@@ -33,8 +33,7 @@ body {
 }
 
 .headerDivs,
-.topOptionsList,
-.botOptionsList,
+.sectionList,
 .paginationList,
 .article,
 footer,
@@ -42,16 +41,14 @@ footer,
   display: flex;
 }
 
-.topOptionsList,
-.botOptionsList,
+.sectionList,
 footer,
 .footerList {
   flex-wrap: wrap;
 }
 
 .headerDivs,
-.topOptionsList img,
-.botOptionsList img {
+.card img {
   margin: 0 auto;
 }
 

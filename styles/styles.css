@@ -304,8 +304,7 @@ body {
 }
 
 .headerDivs,
-.topOptionsList,
-.botOptionsList,
+.sectionList,
 .paginationList,
 .article,
 footer,
@@ -315,8 +314,7 @@ footer,
   display: flex;
 }
 
-.topOptionsList,
-.botOptionsList,
+.sectionList,
 footer,
 .footerList {
   -ms-flex-wrap: wrap;
@@ -324,8 +322,7 @@ footer,
 }
 
 .headerDivs,
-.topOptionsList img,
-.botOptionsList img {
+.card img {
   margin: 0 auto;
 }
 
@@ -464,25 +461,30 @@ h1 {
   display: block;
 }
 
-.topOptionsList p,
+.card p,
 .about p:last-child {
   line-height: 2.5rem;
 }
 
-.topOptionsList h2 {
+.card {
+  width: 312.5px;
+}
+
+.card h2 {
   margin: 1.5rem 0 2rem 0;
   line-height: 4rem;
 }
 
-.topOptionsList div {
-  width: 312.5px;
-}
-
-.topOptionsList p {
+.card p {
   width: 96%;
 }
 
-.topOptionsList div,
+.card,
+.paginationList {
+  margin-bottom: 5rem;
+}
+
+.card,
 .about {
   text-align: center;
 }
@@ -493,15 +495,15 @@ h1 {
 
 .about img {
   margin: 3rem auto 3.5rem;
-  width: 720px;
+  width: 885px;
 }
 
 .about p:nth-of-type(2) {
   margin: 2rem 0;
 }
 
+.sectionList,
 .paginationList {
-  margin: 6rem 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
