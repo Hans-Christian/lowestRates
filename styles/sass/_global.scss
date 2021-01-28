@@ -47,6 +47,12 @@ footer,
   flex-wrap: wrap;
 }
 
+.sectionList,
+.paginationList,
+footer {
+  justify-content: center;
+}
+
 .headerDivs,
 .card img {
   margin: 0 auto;
