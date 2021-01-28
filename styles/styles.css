@@ -614,6 +614,9 @@ footer section:nth-child(3),
 }
 
 @media (max-width: 500px) {
+  html {
+    font-size: 57.5%;
+  }
   .headerList {
     width: 82%;
   }
