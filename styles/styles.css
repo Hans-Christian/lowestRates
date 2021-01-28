@@ -576,12 +576,13 @@ footer section:nth-child(3),
   footer section {
     width: calc(100% / 2);
   }
+  footer section:nth-child(3) {
+    padding-top: 3rem;
+    width: 100%;
+  }
   footer section:first-child,
   footer section:nth-child(3) {
     padding-left: 0;
-  }
-  footer section:nth-child(3) {
-    padding-top: 3rem;
   }
 }
 
@@ -613,13 +614,10 @@ footer section:nth-child(3),
 }
 
 @media (max-width: 500px) {
-  html {
-    font-size: 52.5%;
-  }
   .headerList {
     width: 82%;
   }
   .about img {
-    width: 320px;
+    width: 350px;
   }
 }
